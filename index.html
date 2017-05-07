@@ -20,7 +20,7 @@
 <div class="page_container">
     <div class="page1">
         <div class="img_res_contain">
-            <img src="app/images/Front_cover_smaller.png"/>
+            <img src="app/images/subh-vivah_small.png"/>
         </div>
         <div class="btn_container">
             <!-- <div class="left_btn inline_class"> < Previous</div> -->
@@ -31,7 +31,7 @@
     </div>
     <div class="page2" style="display: none">
         <div class="img_res_contain">
-            <img src="app/images/2nd-page.png"/>
+            <img src="app/images/shubh_prasango.png"/>
         </div>
         <div class="btn_container">
             <div class="left_btn inline_class" id="prvs_btn_2"> < Previous</div>
@@ -42,7 +42,7 @@
     </div>
     <div class="page3" style="display: none">
         <div class="img_res_contain">
-            <img src="app/images/2nd-page.png"/>
+            <img src="app/images/wedding_page.png"/>
         </div>
         <div class="btn_container">
             <div class="left_btn inline_class" id="prvs_btn_3"> < Previous</div>
@@ -60,19 +60,23 @@
             <h4 class="rsvp_header">Please select the events</h4>
         </div>
         <div class="events_name left_portion">
-            <div id="eve_wed" class="chkbox_container"><i id="chkmark_icon"
-                                                          class="display_none_class custom_icon icon-circle"
-                                                          data-ceremony="Wedding"></i><span class="chkbox"
-                                                                                            id="wedding_rsvp"></span><span
+            <div id="eve_wed" class="chkbox_container">
+                <i id="chkmark_icon"
+                   class="display_none_class custom_icon icon-circle"
+                   data-ceremony="Wedding"></i><span class="chkbox"
+                                                     id="wedding_rsvp"></span><span
                     class="chk_words"> Wedding Ceremony </span></div>
-            <div id="eve_j" class="chkbox_container"><i class="display_none_class custom_icon icon-circle"
-                                                        data-ceremony="j_event"></i><span class="chkbox"
-                                                                                          id="jini_eve_ssvp"></span><span
-                    class="chk_words"> Jinali GrahShantak </span></div>
-            <div id="eve_h" class="chkbox_container"><i class="display_none_class custom_icon icon-circle"
-                                                        data-ceremony="h_event"></i><span class="chkbox"
-                                                                                          id="harsh_eve_rsvp"></span><span
+            <div id="eve_j" class="chkbox_container">
+                <i class="display_none_class custom_icon icon-circle"
+                   data-ceremony="j_event"></i><span class="chkbox"
+                                                     id="jini_eve_ssvp"></span><span
+                    class="chk_words"> Pre wedding ceremonies </span></div>
+            <!-- <div id="eve_h" class="chkbox_container">
+                <i class="display_none_class custom_icon icon-circle"
+                   data-ceremony="h_event"></i><span class="chkbox"
+                                                     id="harsh_eve_rsvp"></span><span
                     class="chk_words"> Harshil GrahShantak </span></div>
+                    -->
         </div>
         <div class="guest_details right_portion">
             <div class="">Name : <span><input type="input" id="guest_name" class="nm_input_style"></span></div>
@@ -131,7 +135,9 @@
     </div>
 </div>
 
-<div class="email_empty_error" id="rsvpdone" data-target="rsvptext" data-toggle="modal" style="visibility: hidden">Launch pop up</div>
+<div class="email_empty_error" id="rsvpdone" data-target="rsvptext" data-toggle="modal" style="visibility: hidden">
+    Launch pop up
+</div>
 <div id="rsvptext" class="modal">
     <div class="modal-window">
         <span class="close" data-dismiss="modal">&times;</span>
