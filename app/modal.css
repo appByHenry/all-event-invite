@@ -38,9 +38,8 @@
     line-height: 30px;
     text-align: center;
 }
-.close_mobile{
+.close_mobile_border{
     border: 1px solid silver;
-    padding: 10px;
 }
 
 .close:hover,
