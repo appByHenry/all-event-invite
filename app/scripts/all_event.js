@@ -127,6 +127,12 @@ $(function () {
         alert("on click of close button");
     });
 
+    $(document).on("click", ".close", function () {
+        console.log(this);
+        $(this).parents("#get_rsvp").removeClass("open");
+        alert("on click of close button");
+    });
+
     $(document).on("click", ".rsvp_btn", function () {
         console.log(this);
         $(".ppl_count").attr("value","0");
