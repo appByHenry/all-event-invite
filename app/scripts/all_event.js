@@ -124,6 +124,7 @@ $(function () {
     $(document).on("click", ".close_mobile", function () {
         console.log(this);
         $(this).parents("#get_rsvp").removeClass("open");
+        alert("on click of close button");
     });
 
     $(document).on("click", ".rsvp_btn", function () {
