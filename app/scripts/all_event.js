@@ -123,7 +123,7 @@ $(function () {
 
     $(document).on("click", ".close_mobile", function () {
         console.log(this);
-        $(".close_mobile").parents("#get_rsvp").removeClass("open");
+        $(this).parents("#get_rsvp").removeClass("open");
     });
 
     $(document).on("click", ".rsvp_btn", function () {
