@@ -124,13 +124,11 @@ $(function () {
     $('.close_mobile').on('touchstart click', function(){
         /* do something... */
         console.log(this);
-        //$(this).parents("#get_rsvp").removeClass("open");
         $(".modal").removeClass("open");
     });
 
     $(document).on("click", ".close", function () {
         console.log(this);
-        //$(this).parents("#get_rsvp").removeClass("open");
         $(".modal").removeClass("open");
     });
 
