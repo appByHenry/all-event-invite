@@ -120,18 +120,12 @@ $(function () {
             $(this).next().attr("value",y.toString());
         }
     });
-    /*
-    $(document).on("click", ".close_mobile", function () {
-        console.log(this);
-        $(this).parents("#get_rsvp").removeClass("open");
-        alert("on click of close button");
-    });
-    */
+
     $('.close_mobile').on('touchstart click', function(){
         /* do something... */
         console.log(this);
         $(this).parents("#get_rsvp").removeClass("open");
-        alert("on click of close button");
+        $(".modal").removeClass("open");
     });
 
     $(document).on("click", ".close", function () {
