@@ -121,7 +121,7 @@ $(function () {
         }
     });
 
-    $(document).on("click", ".close_mobile", function () {
+    $(document).on("click touchstart", ".close_mobile", function () {
         console.log(this);
         $(this).parents("#get_rsvp").removeClass("open");
         alert("on click of close button");
